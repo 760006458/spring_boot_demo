@@ -15,6 +15,8 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
+      #naming:
+        #physical-strategy:  org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl  #禁用jpa的驼峰命名
     show-sql: true
   thymeleaf:
     cache: false
